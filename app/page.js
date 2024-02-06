@@ -48,11 +48,11 @@ export default function Home() {
         {/* card section */}
         <div className=" mt-[80px] rounded-[40px] relative">
           <div className="z-[2] flex justify-center absolute top-[-37px] left-1/2 transform -translate-x-1/2">
-            <div className="bg-[#FFE3D8] pt-4 rounded-[30px] h-[100px] max-w-[428px] w-[368px] md:w-[428px]"></div>
+            <div className="bg-[#FFE3D8] pt-4 rounded-[30px] h-[100px] min-[320px]:w-[258px] min-[375px]:w-[286px] min-[425px]:w-[352px] max-w-[428px]   md:w-[428px]"></div>
           </div>
           {/* bg-layer-2 */}
-          <div className="z-[2] flex justify-center absolute top-[-20px] left-1/2 transform -translate-x-1/2">
-            <div className="bg-[#FFBFA6] pt-4 rounded-[35px] h-[100px] max-w-[458px] w-[398px] md:w-[458px]"></div>
+          <div className="z-[2] flex justify-center absolute top-[-20px] left-1/2 transform -translate-x-1/2 ">
+            <div className="bg-[#FFBFA6] pt-4 rounded-[35px] h-[100px]  min-[320px]:w-[284px] min-[375px]:w-[326px] min-[425px]:w-[388px] md:w-[458px]"></div>
           </div>
           {/* main card */}
           <div className="z-[3] shadow-2xl relative w-full h-[286px] rounded-[40px]  flex  justify-between overflow-visible bg-[#2F2F2F]">
